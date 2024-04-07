@@ -4,9 +4,8 @@ import re
 def restore_classes(html_file, class_mappings):
     with open(html_file, 'r') as f:
         html_content = f.read()
-
     # 使用正则表达式查找class属性中的类名
-    class_pattern = r'className="([^"]+)"'
+    class_pattern = r'class="([^"]+)"'
     matches = re.findall(class_pattern, html_content)
 
     # 遍历每个匹配项
@@ -22,6 +21,7 @@ def restore_classes(html_file, class_mappings):
         replaced_class = ' '.join(class_names)
         html_content = html_content.replace(match, replaced_class)
 
+    html_content = html_content.replace('\\:', ':').replace('class=', 'className=')
     # 将替换后的内容写回HTML文件
     with open(html_file, 'w') as f:
         f.write(html_content)
@@ -31,7 +31,7 @@ with open('class_mappings.json', 'r') as f:
     class_mappings = json.load(f)
 
 # 指定HTML文件路径
-html_file = 'layout.tsx'
+html_file = 'F:\\github\\tailwindtemplate\\my-app\\src\\app\\components\\maketing\\sections\\pricing\\page.js'
 
 # 调用函数进行类名替换
 restore_classes(html_file, class_mappings)
