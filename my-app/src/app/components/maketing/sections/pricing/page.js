@@ -11,328 +11,352 @@ const includedFeatures = [
 
 export default function Example() {
   return (
-    <div className="group:hover .group-hover:bg-white py-24 xl:py-32">
-      <div className="mx-auto xl:max-w-7xl px-6 xl:px-8">
-        <div className="mx-auto xl:max-w-4xl xl:text-center">
-          <h2 className="text-base lg:font-semibold sm:leading-7 group:hover .group-hover:text-indigo-600">Pricing</h2>
-          <p className="lg:mt-2 text-4xl font-bold sm:tracking-tight group:hover .group-hover:text-gray-900 lg:text-5xl">
-            Choose the right plan for&nbsp;you
+    <div className="bg-white py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 md:px-8">
+        <div className="mx-auto max-w-4xl text-center">
+          <h2 className="text-base font-semibold leading-7 text-indigo-600">Pricing</h2>
+          <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+            Pricing plans for teams of all sizes
           </p>
         </div>
-        <p className="mx-auto lg:mt-6 xl:max-w-2xl text-lg sm:leading-8 group:hover .group-hover:text-gray-600 xl:text-center">
+        <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
           Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
           quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.
         </p>
-        <div className="lg:mt-20 flow-root">
-          <div className="isolate lg:-mt-16 xl:grid lg:max-w-sm xl:grid-cols-1 lg:gap-y-16 acc acf xl:mx-auto lg:-mx-8 xl:mt-0 xl:max-w-none xl:grid-cols-3 dao daq xl:-mx-4">
-            <div className="xl:pt-16 xl:px-8 lg:pt-0 xl:px-14">
-              <h3 id="tier-basic" className="text-base lg:font-semibold sm:leading-7 group:hover .group-hover:text-gray-900">
-                Basic
-              </h3>
-              <p className="lg:mt-6 xl:flex md:items-baseline gap-x-1">
-                <span className="text-5xl font-bold sm:tracking-tight group:hover .group-hover:text-gray-900">$15</span>
-                <span className="text-sm lg:font-semibold lg:leading-6 group:hover .group-hover:text-gray-600">/month</span>
-              </p>
-              <p className="xl:mt-3 text-sm lg:leading-6 group:hover .group-hover:text-gray-500">$12 per month if paid annually</p>
-              <a
-                href="#"
-                aria-describedby="tier-basic"
-                className="xl:mt-10 \32xl:block lg:rounded-md hover:bg-indigo-600:hover px-3 py-2 xl:text-center text-sm lg:font-semibold lg:leading-6 group:hover .group-hover:text-white hover:shadow-sm:hover bir box boy bpa bph"
-              >
-                Buy plan
-              </a>
-              <p className="xl:mt-10 text-sm lg:font-semibold lg:leading-6 group:hover .group-hover:text-gray-900">
-                Everything necessary to get started.
-              </p>
-              <ul role="list" className="lg:mt-6 abv text-sm lg:leading-6 group:hover .group-hover:text-gray-600">
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  5 products
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  Up to 1,000 subscribers
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  Basic analytics
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  48-hour support response time
-                </li>
-              </ul>
+        <div className="mt-16 flex justify-center">
+          <div
+            className="grid grid-cols-2 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200"
+            id="headlessui-radiogroup-4"
+            role="radiogroup"
+            aria-labelledby="headlessui-label-1"
+          >
+            <label className="sr-only" id="headlessui-label-1" role="none">
+              Payment frequency
+            </label>
+            <div
+              className="bg-indigo-600 text-white cursor-pointer rounded-full px-2\.5 py-1"
+              id="headlessui-radiogroup-option-2"
+              role="radio"
+              aria-checked="true"
+              tabindex="0"
+              data-headlessui-state="checked"
+            >
+              <span>Monthly</span>
             </div>
-            <div className="xl:pt-16 xl:px-8 lg:pt-0 xl:px-14">
-              <h3 id="tier-essential" className="text-base lg:font-semibold sm:leading-7 group:hover .group-hover:text-gray-900">
-                Essential
-              </h3>
-              <p className="lg:mt-6 xl:flex md:items-baseline gap-x-1">
-                <span className="text-5xl font-bold sm:tracking-tight group:hover .group-hover:text-gray-900">$30</span>
-                <span className="text-sm lg:font-semibold lg:leading-6 group:hover .group-hover:text-gray-600">/month</span>
-              </p>
-              <p className="xl:mt-3 text-sm lg:leading-6 group:hover .group-hover:text-gray-500">$24 per month if paid annually</p>
-              <a
-                href="#"
-                aria-describedby="tier-essential"
-                className="xl:mt-10 \32xl:block lg:rounded-md hover:bg-indigo-600:hover px-3 py-2 xl:text-center text-sm lg:font-semibold lg:leading-6 group:hover .group-hover:text-white hover:shadow-sm:hover bir box boy bpa bph"
-              >
-                Buy plan
-              </a>
-              <p className="xl:mt-10 text-sm lg:font-semibold lg:leading-6 group:hover .group-hover:text-gray-900">
-                Everything in Basic, plus essential tools for growing your
-                business.
-              </p>
-              <ul role="list" className="lg:mt-6 abv text-sm lg:leading-6 group:hover .group-hover:text-gray-600">
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  25 products
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  Up to 10,000 subscribers
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  Advanced analytics
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  24-hour support response time
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  Marketing automations
-                </li>
-              </ul>
+            <div
+              className="text-gray-500 cursor-pointer rounded-full px-2\.5 py-1"
+              id="headlessui-radiogroup-option-3"
+              role="radio"
+              aria-checked="false"
+              tabindex="-1"
+              data-headlessui-state=""
+            >
+              <span>Annually</span>
             </div>
-            <div className="xl:pt-16 xl:px-8 lg:pt-0 xl:px-14">
-              <h3 id="tier-growth" className="text-base lg:font-semibold sm:leading-7 group:hover .group-hover:text-gray-900">
-                Growth
-              </h3>
-              <p className="lg:mt-6 xl:flex md:items-baseline gap-x-1">
-                <span className="text-5xl font-bold sm:tracking-tight group:hover .group-hover:text-gray-900">$60</span>
-                <span className="text-sm lg:font-semibold lg:leading-6 group:hover .group-hover:text-gray-600">/month</span>
-              </p>
-              <p className="xl:mt-3 text-sm lg:leading-6 group:hover .group-hover:text-gray-500">$48 per month if paid annually</p>
-              <a
-                href="#"
-                aria-describedby="tier-growth"
-                className="xl:mt-10 \32xl:block lg:rounded-md hover:bg-indigo-600:hover px-3 py-2 xl:text-center text-sm lg:font-semibold lg:leading-6 group:hover .group-hover:text-white hover:shadow-sm:hover bir box boy bpa bph"
-              >
-                Buy plan
-              </a>
-              <p className="xl:mt-10 text-sm lg:font-semibold lg:leading-6 group:hover .group-hover:text-gray-900">
-                Everything in Essential, plus collaboration tools and deeper
-                insights.
-              </p>
-              <ul role="list" className="lg:mt-6 abv text-sm lg:leading-6 group:hover .group-hover:text-gray-600">
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  Unlimited products
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  Unlimited subscribers
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  Advanced analytics
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  1-hour, dedicated support response time
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  Marketing automations
-                </li>
-                <li className="xl:flex gap-x-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="lg:h-6 w-5 xl:flex-none group:hover .group-hover:text-indigo-600"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  Custom reporting tools
-                </li>
-              </ul>
-            </div>
+          </div>
+        </div>
+        <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 sm:max-w-none grid-cols-3">
+          <div className="ring-gray-200 rounded-3xl p-8 ring-1 xl:p-10">
+            <h3 id="tier-freelancer" className="text-gray-900 text-lg font-semibold leading-8">
+              Freelancer
+            </h3>
+            <p className="text-gray-600 mt-4 text-sm leading-6">
+              The essentials to provide your best work for clients.
+            </p>
+            <p className="mt-6 flex items-baseline gap-x-1">
+              <span className="text-gray-900 text-4xl font-bold tracking-tight">$15</span>
+              <span className="text-gray-600 text-sm font-semibold leading-6">/month</span>
+            </p>
+            <a
+              href="#"
+              aria-describedby="tier-freelancer"
+              className="bg-indigo-600 text-white shadow-sm bir bph mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 box boy bpa"
+            >
+              Buy plan
+            </a>
+            <ul role="list" className="text-gray-600 mt-8 abv text-sm leading-6 lg:mt-10">
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-indigo-600 h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                5 products
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-indigo-600 h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Up to 1,000 subscribers
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-indigo-600 h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Basic analytics
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-indigo-600 h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                48-hour support response time
+              </li>
+            </ul>
+          </div>
+          <div className="ring-gray-200 rounded-3xl p-8 ring-1 xl:p-10">
+            <h3 id="tier-startup" className="text-gray-900 text-lg font-semibold leading-8">
+              Startup
+            </h3>
+            <p className="text-gray-600 mt-4 text-sm leading-6">
+              A plan that scales with your rapidly growing business.
+            </p>
+            <p className="mt-6 flex items-baseline gap-x-1">
+              <span className="text-gray-900 text-4xl font-bold tracking-tight">$30</span>
+              <span className="text-gray-600 text-sm font-semibold leading-6">/month</span>
+            </p>
+            <a
+              href="#"
+              aria-describedby="tier-startup"
+              className="bg-indigo-600 text-white shadow-sm bir bph mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 box boy bpa"
+            >
+              Buy plan
+            </a>
+            <ul role="list" className="text-gray-600 mt-8 abv text-sm leading-6 lg:mt-10">
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-indigo-600 h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                25 products
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-indigo-600 h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Up to 10,000 subscribers
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-indigo-600 h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Advanced analytics
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-indigo-600 h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                24-hour support response time
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-indigo-600 h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Marketing automations
+              </li>
+            </ul>
+          </div>
+          <div className="bg-gray-900 ring-gray-900 rounded-3xl p-8 ring-1 xl:p-10">
+            <h3 id="tier-enterprise" className="text-white text-lg font-semibold leading-8">
+              Enterprise
+            </h3>
+            <p className="text-gray-300 mt-4 text-sm leading-6">
+              Dedicated support and infrastructure for your company.
+            </p>
+            <p className="mt-6 flex items-baseline gap-x-1">
+              <span className="text-white text-4xl font-bold tracking-tight">Custom</span>
+            </p>
+            <a
+              href="#"
+              aria-describedby="tier-enterprise"
+              className="bg-white\/10 text-white bjy bpm mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 box boy bpa"
+            >
+              Contact sales
+            </a>
+            <ul role="list" className="text-gray-300 mt-8 abv text-sm leading-6 lg:mt-10">
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-white h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Unlimited products
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-white h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Unlimited subscribers
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-white h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Advanced analytics
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-white h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                1-hour, dedicated support response time
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-white h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Marketing automations
+              </li>
+              <li className="flex gap-x-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="text-white h-6 w-5 flex-none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                Custom reporting tools
+              </li>
+            </ul>
           </div>
         </div>
       </div>
