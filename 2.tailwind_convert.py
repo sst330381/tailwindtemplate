@@ -5,8 +5,10 @@ def restore_classes(html_file, class_mappings):
     with open(html_file, 'r') as f:
         html_content = f.read()
 
+    # 去除 HTML 内容中的反斜线
+    html_content = html_content.replace('\\:', ':')
     # 使用正则表达式查找class属性中的类名
-    class_pattern = r'className="([^"]+)"'
+    class_pattern = r'class="([^"]+)"'
     matches = re.findall(class_pattern, html_content)
 
     # 遍历每个匹配项
