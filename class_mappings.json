@@ -1,8 +1,11 @@
 {
+<<<<<<< HEAD
     "4.1 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after": "4.1 | MIT License | https://tailwindcss.com\n*/\n\n/*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after",
     "Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n5. Use the user's configured `sans` font-feature-settings by default.\n6. Use the user's configured `sans` font-variation-settings by default.\n7. Disable tap highlights on iOS\n*/\n\nhtml,\n:host": "Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n5. Use the user's configured `sans` font-feature-settings by default.\n6. Use the user's configured `sans` font-variation-settings by default.\n7. Disable tap highlights on iOS\n*/\n\nhtml,\n:host",
     "Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody": "Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody",
     "Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr": "Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr",
+=======
+>>>>>>> 71158ed558e429a0e18fafd84461eadcdddd373a
     "*/\n\nabbr:where([title])": "*/\n\nabbr:where([title])",
     "*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6": "*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6",
     "*/\n\na": "*/\n\na",
@@ -11,23 +14,26 @@
     "*/\n\nsmall": "*/\n\nsmall",
     "*/\n\nsub,\nsup": "*/\n\nsub,\nsup",
     "25em;\n}\n\nsup": "25em;\n}\n\nsup",
-    "Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable": "Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable",
-    "Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea": "Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea",
     "*/\n\nbutton,\nselect": "*/\n\nbutton,\nselect",
-    "Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit']": "Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit']",
     "*/\n\n:-moz-focusring": "*/\n\n:-moz-focusring",
     "(https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid": "(https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid",
     "*/\n\nprogress": "*/\n\nprogress",
     "*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button": "*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button",
+<<<<<<< HEAD
     "Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search']": "Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search']",
+=======
+>>>>>>> 71158ed558e429a0e18fafd84461eadcdddd373a
     "*/\n\n::-webkit-search-decoration": "*/\n\n::-webkit-search-decoration",
-    "Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button": "Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button",
     "*/\n\nsummary": "*/\n\nsummary",
     "*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre": "*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre",
     "*/\ndialog": "*/\n\ndialog",
     "*/\n\ntextarea": "*/\n\ntextarea",
+<<<<<<< HEAD
     "Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder": "Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder",
     "*/\n\nbutton,\n[role=\"button\"]": "*/\n\nbutton,\n[role=\"button\"]",
+=======
+    "*/\n\nbutton,\n[role=\"button\"]": "cursor-pointer",
+>>>>>>> 71158ed558e429a0e18fafd84461eadcdddd373a
     "*/\n:disabled": "*/\n\n:disabled",
     "Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject": "Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject",
     "(https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo": "(https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo",
@@ -2094,7 +2100,11 @@
     "bsy": "sm\\:-top-80",
     "bsz": "sm\\:bottom-0",
     "bta": "sm\\:left-1\\/2",
+<<<<<<< HEAD
     "btb": "sm\\:left-12",
+=======
+    "btb": "left-12",
+>>>>>>> 71158ed558e429a0e18fafd84461eadcdddd373a
     "btc": "sm\\:left-\\[calc\\(50\\%\\+36rem\\)\\]",
     "btd": "sm\\:left-\\[calc\\(50\\%-18rem\\)\\]",
     "bte": "sm\\:left-\\[calc\\(50\\%-30rem\\)\\]",
@@ -2979,10 +2989,17 @@
     "daz": "lg\\:overflow-y-auto",
     "dba": "lg\\:overflow-y-visible",
     "dbb": "lg\\:rounded-2xl",
+<<<<<<< HEAD
     "dbc": "lg\\:rounded-3xl",
     "dbd": "lg\\:rounded-lg",
     "dbe": "lg\\:rounded-md",
     "dbf": "lg\\:rounded-none",
+=======
+    "dbc": "rounded-3xl",
+    "dbd": "sm\\:rounded-lg",
+    "dbe": "rounded-md",
+    "dbf": "rounded-none",
+>>>>>>> 71158ed558e429a0e18fafd84461eadcdddd373a
     "dbg": "lg\\:rounded-b-none",
     "dbh": "lg\\:rounded-l-lg",
     "dbi": "lg\\:rounded-l-none",
