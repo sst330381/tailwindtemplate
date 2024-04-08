@@ -10,19 +10,26 @@ def restore_classes(html_file, class_mappings):
     # 使用正则表达式查找class属性中的类名
     class_pattern = r'class="([^"]+)"'
     matches = re.findall(class_pattern, html_content)
-
-    # 遍历每个匹配项
+    
+    # 构建替换字典
+    replace_dict = {}
     for match in matches:
         # 将类名以空格分隔为列表
         class_names = match.split()
         # 遍历每个类名
         for i, class_name in enumerate(class_names):
             if class_name in class_mappings:
-                # 如果类名在映射中，替换为原版类名
-                class_names[i] = class_mappings[class_name]
-        # 更新HTML内容中的类名
-        replaced_class = ' '.join(class_names)
-        html_content = html_content.replace(match, replaced_class)
+                replaced_class_name = class_mappings[class_name]
+                class_names[i] = replaced_class_name
+                replace_dict[match] = ' '.join(class_names)
+        # 统一进行替换
+    for match, replaced_class in replace_dict.items():
+        # 仅替换class属性中的匹配项
+        html_content = html_content.replace('class="{}"'.format(match), 'class="{}"'.format(replaced_class))
+
+
+    # 替换其他部分
+    html_content = html_content.replace('\\:', ':').replace('class=', 'className=')
 
     # 将替换后的内容写回HTML文件
     with open(html_file, 'w') as f:
@@ -33,7 +40,7 @@ with open('class_mappings.json', 'r') as f:
     class_mappings = json.load(f)
 
 # 指定HTML文件路径
-html_file = 'layout.tsx'
+html_file = 'my-app\\src\\app\\components\\maketing\\sections\\pricing\\page.js'
 
 # 调用函数进行类名替换
 restore_classes(html_file, class_mappings)
