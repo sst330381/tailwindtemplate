@@ -30,29 +30,8 @@ def find_class_mappings(original_css_file, compiled_css_file):
     print(len(compiled_classes.items()),len(original_classes.items()))
 
     # 对比两个字典，找出对应关系
-    class_mappings = {}
-    prev_compiled_style = None
-    prev_original_style = None
-    findStyle = False
-    lastClass = None
-
-    for compiled_class, compiled_style in compiled_classes.items():
-        findStyle = False
-        lastClass = None
-        for original_class, original_style in original_classes.items():
-            if compiled_style == original_style: #找到相同样式
-                findStyle = True  #临时变量   找到
-                lastClass = original_class  #临时变量  存储对应的class
-                if prev_compiled_style is not None and prev_original_style is not None and prev_compiled_style == prev_original_style: #前一个也相同，肯定是了
-                    class_mappings[compiled_class] = original_class
-                    findStyle = False  #初始化 临时变量
-                    lastClass = None 
-                    break
-            prev_original_style = original_style
-        if findStyle == True: #找到了，但是每个匹配项前一个的样式都不同，那就取最后一个找到的类名
-            class_mappings[compiled_class] = lastClass
-        prev_compiled_style = compiled_style
-
+    class_mappings = dict(zip(compiled_classes.keys(), original_classes.keys()))
+    
     return class_mappings
 
 def save_mappings_to_file(class_mappings, output_file):
