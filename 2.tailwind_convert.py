@@ -40,12 +40,8 @@ with open('class_mappings.json', 'r') as f:
     class_mappings = json.load(f)
 
 # 指定HTML文件路径
-<<<<<<< HEAD
 # html_file = 'my-app\\src\\app\\components\\maketing\\sections\\pricing\\page.js'
-html_file = 'my-app\\src\\app\\page.tsx'
-=======
-html_file = 'my-app\\src\\app\\components\\maketing\\sections\\pricing\\page.js'
->>>>>>> 71158ed558e429a0e18fafd84461eadcdddd373a
+html_file = 'my-app\\'+'components\\testimonials\\testimonial1.js'
 
 # 调用函数进行类名替换
 restore_classes(html_file, class_mappings)
