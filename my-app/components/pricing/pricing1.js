@@ -48,7 +48,8 @@ function Page({ allprice }) {
             .filter((x) => x.name == selected)[0]
             .levels.map((level) => (
               <div
-                className={`${level.mark ? "ring-indigo-600" : "ring-gray-200"} ring-2  rounded-3xl p-8 xl:p-10`}
+                className={`${level.mark ? "ring-indigo-600" : "ring-gray-200 mt-8"} ring-2  rounded-3xl p-8 xl:p-10
+                flex flex-col justify-between rounded-3xl bg-white p-8 ring-1 ring-gray-200 xl:p-10`}
               >
                 <div className="flex items-center justify-between gap-x-4">
                   <h3
@@ -74,13 +75,6 @@ function Page({ allprice }) {
                     /month
                   </span>
                 </p>
-                <a
-                  href="#"
-                  aria-describedby="tier-startup"
-                  className="bg-indigo-600 text-white shadow-sm bir mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 box boy bpa bph"
-                >
-                  Buy plan
-                </a>
                 <ul
                   role="list"
                   className="mt-8 abv text-sm leading-6 text-gray-600 xl:mt-10"
@@ -104,6 +98,13 @@ function Page({ allprice }) {
                     </li>
                   ))}
                 </ul>
+                <a
+                  href="#"
+                  aria-describedby="tier-startup"
+                  className="bg-indigo-600 text-white shadow-sm bir mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 box boy bpa bph"
+                >
+                  Buy plan
+                </a>
               </div>
             ))}
 
