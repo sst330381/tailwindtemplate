@@ -22,10 +22,10 @@ function Page() {
           <figure className="rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
             <blockquote className="p-6 text-lg font-semibold leading-7 tracking-tight text-gray-900 sm:p-12 sm:text-xl sm:leading-8">
               <p>
-                "Integer id nunc sit semper purus. Bibendum at lacus ut arcu
+              &quot;Integer id nunc sit semper purus. Bibendum at lacus ut arcu
                 blandit montes vitae auctor libero. Hac condimentum dignissim
                 nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel
-                et proin. Non hendrerit in vel ac diam."
+                et proin. Non hendrerit in vel ac diam.&quot;
               </p>
             </blockquote>
             <figcaption className="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-gray-900/10 px-6 py-4 sm:flex-nowrap">
@@ -50,8 +50,8 @@ function Page() {
               <figure className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
                 <blockquote className="text-gray-900">
                   <p>
-                    "Laborum quis quam. Dolorum et ut quod quia. Voluptas
-                    numquam delectus nihil. Aut enim doloremque et ipsam."
+                  &quot;Laborum quis quam. Dolorum et ut quod quia. Voluptas
+                    numquam delectus nihil. Aut enim doloremque et ipsam.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4">
@@ -69,8 +69,8 @@ function Page() {
               <figure className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
                 <blockquote className="text-gray-900">
                   <p>
-                    "Quia dolorem qui et. Atque quo aliquid sit eos officia.
-                    Dolores similique laboriosam quaerat cupiditate."
+                    &quot;Quia dolorem qui et. Atque quo aliquid sit eos officia.
+                    Dolores similique laboriosam quaerat cupiditate.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4">
@@ -88,9 +88,9 @@ function Page() {
               <figure className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
                 <blockquote className="text-gray-900">
                   <p>
-                    "Consequatur ut atque. Itaque nostrum molestiae id veniam
+                    &quot;Consequatur ut atque. Itaque nostrum molestiae id veniam
                     eos cumque. Ut quia eum fugit laborum autem inventore ut
-                    voluptate."
+                    voluptate.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4">
@@ -110,8 +110,8 @@ function Page() {
               <figure className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
                 <blockquote className="text-gray-900">
                   <p>
-                    "Aut reprehenderit voluptatem eum asperiores beatae id. Iure
-                    molestiae ipsam ut officia rem nulla blanditiis."
+                    &quot;Aut reprehenderit voluptatem eum asperiores beatae id. Iure
+                    molestiae ipsam ut officia rem nulla blanditiis.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4">
@@ -129,8 +129,8 @@ function Page() {
               <figure className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
                 <blockquote className="text-gray-900">
                   <p>
-                    "Nam nesciunt dolorem dolor asperiores cum. Incidunt
-                    molestiae quis deleniti vitae ut in earum delectus iusto."
+                    &quot;Nam nesciunt dolorem dolor asperiores cum. Incidunt
+                    molestiae quis deleniti vitae ut in earum delectus iusto.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4">
@@ -152,9 +152,9 @@ function Page() {
               <figure className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
                 <blockquote className="text-gray-900">
                   <p>
-                    "Voluptas quos itaque ipsam in voluptatem est. Iste eos
+                    &quot;Voluptas quos itaque ipsam in voluptatem est. Iste eos
                     blanditiis repudiandae. Earum deserunt enim molestiae ipsum
-                    perferendis recusandae saepe corrupti."
+                    perferendis recusandae saepe corrupti.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4">
@@ -172,8 +172,8 @@ function Page() {
               <figure className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
                 <blockquote className="text-gray-900">
                   <p>
-                    "Aliquid dolore praesentium ratione. Cumque ea officia
-                    repellendus laboriosam. Vitae quod id explicabo non sunt."
+                    &quot;Aliquid dolore praesentium ratione. Cumque ea officia
+                    repellendus laboriosam. Vitae quod id explicabo non sunt.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4">
@@ -193,9 +193,9 @@ function Page() {
               <figure className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
                 <blockquote className="text-gray-900">
                   <p>
-                    "Molestias ea earum quos nostrum doloremque sed. Quaerat
+                    &quot;Molestias ea earum quos nostrum doloremque sed. Quaerat
                     quasi aut velit incidunt excepturi rerum voluptatem minus
-                    harum."
+                    harum.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4">
@@ -213,9 +213,9 @@ function Page() {
               <figure className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
                 <blockquote className="text-gray-900">
                   <p>
-                    "Architecto libero natus est. Est quam debitis officia enim
+                    &quot;Architecto libero natus est. Est quam debitis officia enim
                     atque et ut non. Sunt reiciendis quasi eaque. Itaque error
-                    ut et."
+                    ut et.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4">
@@ -233,9 +233,9 @@ function Page() {
               <figure className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
                 <blockquote className="text-gray-900">
                   <p>
-                    "Temporibus ea molestiae impedit adipisci perspiciatis illo
+                    &quot;Temporibus ea molestiae impedit adipisci perspiciatis illo
                     aliquid. Quis ut ratione et voluptatem et. Nostrum explicabo
-                    iste unde beatae."
+                    iste unde beatae.&quot;
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4">

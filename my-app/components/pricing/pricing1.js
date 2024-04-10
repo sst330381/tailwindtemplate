@@ -48,6 +48,7 @@ function Page({ allprice }) {
             .filter((x) => x.name == selected)[0]
             .levels.map((level) => (
               <div
+                key={level.title}
                 className={`${level.mark ? "ring-indigo-600" : "ring-gray-200 mt-8"} ring-2  rounded-3xl p-8 xl:p-10
                 flex flex-col justify-between rounded-3xl bg-white p-8 ring-1 ring-gray-200 xl:p-10`}
               >
@@ -80,7 +81,7 @@ function Page({ allprice }) {
                   className="mt-8 abv text-sm leading-6 text-gray-600 xl:mt-10"
                 >
                   {level.points.map((point) => (
-                    <li className="flex gap-x-3">
+                    <li className="flex gap-x-3" key={point}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
