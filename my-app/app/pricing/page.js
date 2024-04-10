@@ -64,7 +64,11 @@ const allprice = [
 ];
 
 function Page() {
-  return <Pricing allprice={allprice} />;
+  return (
+    <div className="pt-24">
+        <Pricing allprice={allprice} />
+    </div>
+  );
 }
 
 export default Page;

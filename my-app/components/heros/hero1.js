@@ -53,7 +53,7 @@ function Page({props}) {
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <a
-                      href="#"
+                      href="/pricing"
                       className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm bir box boy bpa bph"
                     >
                       Get started

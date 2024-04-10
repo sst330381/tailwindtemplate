@@ -1,6 +1,11 @@
+
+import Feature from "@/components/feature"
+
+
 function Page() {
     return (  
-        <h1>features</h1>
+        
+      <Feature/>
      );
 }
 

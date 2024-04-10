@@ -17,9 +17,9 @@ export async function authenticate(
     if (error instanceof AuthError) {
       switch (error.type) {
         case 'CredentialsSignin':
-          return '用户名或密码错误';
+          return 'Invalid username or password.';
         default:
-          return '其他错误.';
+          return 'Something wrong.';
       }
     }
     throw error;

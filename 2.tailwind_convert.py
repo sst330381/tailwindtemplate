@@ -41,7 +41,7 @@ with open('class_mappings.json', 'r') as f:
 
 # 指定HTML文件路径
 # html_file = 'my-app\\src\\app\\components\\maketing\\sections\\pricing\\page.js'
-html_file = 'my-app\\'+'components\\logoclouds.js'
+html_file = 'my-app\\'+'app\\login\\page.js'
 
 # 调用函数进行类名替换
 restore_classes(html_file, class_mappings)
