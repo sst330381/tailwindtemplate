@@ -26,9 +26,9 @@ export default function RootLayout({
           <Header1 color="light" />
           {children}
         </div>
-        {/* <BaiDuAnalytics /> */}
-          <Analytics />
-        <GoogleAnalytics/>
+        <BaiDuAnalytics />
+          {/* <Analytics /> */}
+        {/* <GoogleAnalytics/> */}
       </body>
     </html>
   );
