@@ -28,7 +28,7 @@ export default function RootLayout({
         </div>
         <BaiDuAnalytics />
           {/* <Analytics /> */}
-        {/* <GoogleAnalytics/> */}
+        <GoogleAnalytics/>
       </body>
     </html>
   );
