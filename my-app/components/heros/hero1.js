@@ -25,13 +25,13 @@ function Page({props}) {
             <svg x="50%" y="-1" className="overflow-visible fill-gray-50">
               <path
                 d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
-                stroke-width="0"
+                strokeWidth="0"
               ></path>
             </svg>
             <rect
               width="100%"
               height="100%"
-              stroke-width="0"
+              strokeWidth="0"
               fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
             ></rect>
           </svg>

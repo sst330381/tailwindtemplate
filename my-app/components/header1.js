@@ -56,7 +56,7 @@ function Page({ color }) {
             Sign in
           </a>
           <a
-            class="inline-flex justify-center rounded-lg text-sm font-semibold py-2.5 px-4 bg-indigo-600 text-white -my-2.5 ml-8"
+            className="inline-flex justify-center rounded-lg text-sm font-semibold py-2.5 px-4 bg-indigo-600 text-white -my-2.5 ml-8"
             href="/pricing"
           >
             <span>
