@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 // import "@/app/ui/components.css";
 import Header1 from "@/components/header1"
+import BaiDuAnalytics from "@/app/BaiDuAnalytics";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body >
         <div className="bg-white">
+          <BaiDuAnalytics/>
           <Header1 color="light"/>
           {children}
         </div>
