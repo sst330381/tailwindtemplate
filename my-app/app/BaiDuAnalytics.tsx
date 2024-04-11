@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import Script from "next/script";
 export default function Page() {
   return (
     <>
       {process.env.AnalysisBaidu ? (
-        <Script>
+        <Script id="AnalysisBaidu">
           {`
         (function() {
             var hm = document.createElement("script");
