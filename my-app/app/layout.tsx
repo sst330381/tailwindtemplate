@@ -3,7 +3,9 @@ import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 // import "@/app/ui/components.css";
 import Header1 from "@/components/header1";
+import { Analytics } from "@vercel/analytics/react";
 import BaiDuAnalytics from "@/app/BaiDuAnalytics";
+import GoogleAnalytics from "@/app/GoogleAnalytics";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +26,9 @@ export default function RootLayout({
           <Header1 color="light" />
           {children}
         </div>
-        <BaiDuAnalytics />
+        {/* <BaiDuAnalytics /> */}
+          <Analytics />
+        <GoogleAnalytics/>
       </body>
     </html>
   );
