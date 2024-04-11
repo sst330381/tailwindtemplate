@@ -3,7 +3,8 @@ import Script from "next/script";
 export default function Page() {
   return (
     <>
-      {process.env.AnalysisBaidu ? (
+    
+      {process.env.NEXT_PUBLIC_AnalysisBaidu ? (
         <Script id="AnalysisBaidu">
           {`
         (function() {
@@ -15,7 +16,7 @@ export default function Page() {
           `}
         </Script>
       ) : (
-        <></>
+        <div id="AnalysisBaidu" analysis={process.env.NEXT_PUBLIC_AnalysisBaidu} ></div>
       )}
     </>
   );
